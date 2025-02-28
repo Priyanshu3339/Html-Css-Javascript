@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .sample{
+        background-color: aqua;
+
+    }
+    
+</style>
+<link href="external.css">
+
+</head>
+<body>
+<div id="data">
+
+
+<h1 id="game">We are learning full stack <span id="user"></span></h1>
+
+<button onclick="add()">Add</button>
+
+<button onclick="Update()">Update</button>
+<button onclick="Delete()">Delete</button>
+<button onclick="Show()">Show</button>
+<button onclick="Change()">Change</button>
+<button onclick="Reset()">Reset</button>
+
+</div>
+<script>
+
+//DOM to get cssin javascript
+// let a=document.getElementById("data")
+// a.style.backgroundColor="blue"
+
+
+// internal
+// let b=document.getElementById("data")
+// b.classList.add("sample")
+
+//external
+// let c=document.getElementById("data")
+// b.classList.add("container")
+
+//Events in DOM  :- these sre used to create some events or action while we access something like hover
+
+//onclick
+//onmouseenter
+//onmouseout
+//onkeypress :- keyboard events
+//onsubmit
+//ondoubleclick
+
+function add() {
+    let c= document.getElementById("user")
+    c.textContent="Chennai"
+    
+}
+
+
+// function clickbtn() {
+//     console.log(Date(toString));
+    
+// }
+
+function Update() {
+    let b= document.getElementById("game")
+    b.textContent="game baj"
+    
+}
+
+function Delete() {
+     let a= document.getElementById("game")
+    a.style.display="none"
+    
+}
+
+
+function Show() {
+     let c = document.getElementById("game")
+    c.style.display="block"
+    
+}
+function Change() {
+     let c = document.getElementById("game")
+    c.style.backgroundColor="yellow"
+    
+}
+function Reset() {
+    let c = document.getElementById("game")
+    c.textContent="We are learning full stack"
+    c.style.backgroundColor="white"
+
+    
+}
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
