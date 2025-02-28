@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <script src="https://kit.fontawesome.com/8a30198f52.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    #main{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    #bar {
+
+        background-color: #ff6f71;
+        font-weight: bold;
+        font-size: larger;
+        margin-bottom: 0px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 129px;
+        padding: 10px;
+        justify-content: center;
+
+    }
+
+    #food {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        margin-top: 0px;
+
+
+
+
+    }
+
+    #description {
+
+        padding-top: 100px;
+        padding-left: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 20px;
+        background-image: linear-gradient(to bottom right, #fff5b0, #ffb6ee);
+
+
+    }
+
+    #btn {
+        background-color: #ff6f71;
+        padding: 10px;
+        width: 200px;
+        border: 0px;
+        border-radius: 0px;
+        color: white;
+    }
+
+    #second {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-image: linear-gradient(to bottom right, #fff5b0, #ffb6ee);
+        padding: 30px;
+        
+        align-items: right;
+        justify-content: right;
+    }
+
+    #threeframe {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 600px;
+        width: 700px;
+        grid-gap: 5px;
+        justify-items: right;
+        align-items: right;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        padding-right: 0px;
+
+
+    }
+
+    #two {
+
+
+        padding-top: 100px;
+
+        margin-left: 100px;
+        /* padding-left: 50px; */
+        padding-right: 0px;
+        justify-content: right;
+        align-items: right;
+    }
+
+    #one {
+
+        padding-top: 100px;
+        margin-left: 0px;
+    }
+
+    #text {
+
+        background-color: #ff6f71;
+        height: 200px;
+        align-items: center;
+        width: 400px;
+        margin-top: 200px;
+        padding: 10px;
+        padding-left: 30px;
+
+        /* font-size: larger; */
+    }
+    button:hover{
+        background-color: black;
+    }
+    #btn1{
+        background-color: #ff7170; border: 0px;
+    }
+   
+</style>
+
+<body>
+    <div id="main">
+        <div id="bar">
+            <ul>
+                <li>Home</li>
+                <li>Order </li>
+                <li>Food</li>
+                <li>Restaurant</li>
+                <li>Testimonials</li>
+                <li>Contact Us</li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </div>
+        <div id="food">
+            <div id="description">
+                <h1>LOREM IPSUM</h1>
+                <br>
+                <p style="line-height: 1.5; width: 700px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nulla esse eligendi. Hic in
+                    soluta sequi distinctio, necessitatibus repudiandae dignissimos tenetur id nostrum excepturi
+                    voluptate ducimus iste maiores, non reiciendis. Quae tempora cum perspiciatis iste quisquam nam,
+                    ipsam ea aut, quo itaque dignissimos voluptatum reiciendis, labore nihil? Itaque, alias? Error,
+                    facilis saepe.</p>
+                <br>
+                <br>
+                <button id="btn">Click Me </button>
+            </div>
+            <div id="photo">
+                <img src="food1.jpg" alt="Error" style="width: 100%;height:100%;">
+
+            </div>
+
+
+
+        </div>
+        <div id="second">
+            <div id="threeframe">
+                <div id="two">
+                    <img src="stage.jfif" alt="Error" style="height: 50%; width: 100%;"><br>
+                    <img src="short.jpg" alt="Error" style="height: 50%; width: 100% ;">
+                </div>
+                <div id="one">
+                    <img src="long.jfif" alt="Error" style="height: 100%; width: 100%;">
+                </div>
+
+            </div>
+            <div id="text">
+                <p>LOREM IPSUM</p>
+                <h1 style="letter-spacing: 1.5px; font-size: 40px;">LOREM IPSUM <br> 
+                    SET ADEMIR</h1>
+                <button id="btn1"><a href="https://www.swiggy.com/">Click <i class="fa-solid fa-arrow-right"></i></a></button>
+                        
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
