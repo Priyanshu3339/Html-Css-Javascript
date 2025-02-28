@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <script src="https://kit.fontawesome.com/8a30198f52.js" crossorigin="anonymous"></script>
+    <style>
+        #main {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #first {
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            grid-gap: 20px;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 15px;
+            background-color: navy;
+            color: white;
+        }
+
+        #second {
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            grid-gap: 20px;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 15px;
+            background-color: azure;
+            font-display: bold;
+        }
+
+        #nav ul {
+            list-style: none;
+            display: flex;
+            color: navy;
+            gap: 10px;
+            margin-top: 0;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #press button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border-radius: 7px;
+            width: 100px;
+
+        }
+
+        #secp1 {
+            color: green;
+            font-size: larger;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #third {
+            display: grid;
+            grid-template-columns: 75% 50%;
+            grid-gap: 20px;
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 15px;
+            background-color: azure;
+            font-display: bold;
+            /* background-image: url(cssas.jpg); */
+            background-size: 100vw 100vw;
+            color: white;
+            height: 450px;
+            background-image: url(cssas.jpg);
+
+            object-fit: cover;
+
+
+
+
+        }
+
+        #textrj {
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            padding-left: 80px;
+            padding-top: 100px;
+        }
+
+        #forms {
+            /* font-size: 10px; */
+
+            width: 250px;
+            /* text-align: right; */
+            /* justify-content: right; */
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            gap: 10px;
+            /* border-radius: 10px; */
+            padding-bottom: 0px;
+            height: 350px;
+            margin-top: 30px;
+
+
+        }
+
+        #fifth {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 25% 25% 25% 25%;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        #f1 {
+            padding: 20px;
+            width: 400px;
+
+            background-color: teal;
+            border-radius: 10px;
+            padding-top: 0px;
+            margin-top: 0;
+
+        }
+
+        #seveth {
+            display: grid;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            grid-gap: 20px;
+            padding-left: 300px;
+            justify-content: center;
+            align-items: center;
+            padding-right: 0px;
+
+
+
+
+        }
+
+        #sp {
+            width: 300px;
+            justify-content: center;
+            text-align: center;
+
+        }
+
+        #btn {
+            background-color: teal;
+            padding: 10px;
+            color: white;
+        }
+
+        #eight {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            padding: 20px;
+            background-color: skyblue;
+            grid-gap: 10px;
+            margin-top: 40px;
+            padding-left: 250px;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+
+        <div style="background-color: orange;text-align: center;padding: 10px; color: white;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+        </div>
+        <div id="first">
+            <div id="email">E-mail: abc@gmaul.com</div>
+            <div id="phn">Contact: 99999 99999</div>
+            <div id="icons" style="margin-right: 10px;">
+                <i class="fa-brands fa-facebook" style="font-size: 20px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-square-twitter" style="font-size: 20px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-square-instagram" style="font-size: 20px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-linkedin" style="font-size: 20px;margin-right: 10px;"></i>
+            </div>
+        </div>
+        <div id="second">
+            <div id="secp1"><b>RJ Technologies</b></div>
+            <div id="nav">
+                <ul>
+                    <li><b><a href="https://www.besanttechnologies.com/branches/besant-technologies-marathahalli-bangalore#max-widget">Home</a></b></li>
+                    <li><b>About</b></li>
+                    <li><b>Courses</b></li>
+                    <li><b>Online Training</b></li>
+                    <li><b>Contact</b></li>
+
+                </ul>
+            </div>
+            <div id="press">
+                <button type="submit">Enquiry</button>
+
+            </div>
+        </div>
+        <div id="third">
+            <div id="textrj">
+                <h1>RJ Technologies</h1>
+                Best Online & Classroom Training Institute<br>
+                <br><br>
+                <p style="width: 550px;">sit amet consectetur adipisicing elit. Incidunt totam cumque alias eaque
+                    numquam placeat vero quam molestias nobis similique! loadipisicing elit. Placeat quia doloribus
+                    aliquid at. Sit obcaecati minus voluptate vero fugit. Libero!
+
+
+                </p>
+                <button style="background-color: green;color: white;border-radius: 5px;padding: 10px;">Apply
+                    Online</button>
+            </div>
+            <div id="forms">
+                <form action="">
+                    <h4 style="color: black;">Request For Classroom & Online Training Quotation</h4><br>
+                    <div id="fombtn">
+                        <button
+                            style="background-color: lightblue;color: black;border: 0;padding: 8px;margin-right: 10px;"><i
+                                class="fa-solid fa-laptop"></i>Classroom</button>
+                        <button style="background-color: lightblue;color: black;border: 0;padding: 8px;"><i
+                                class="fa-solid fa-laptop-file"></i>Online</button><br><br>
+                        <input type="name" placeholder="Enter Your Name"><br><br>
+                        <input type="name" placeholder="Enter Your Email"><br><br>
+                        <input type="number" placeholder="Enter Your Mobile No."><br><br>
+                        <input type="search" placeholder="Select Course"><br><br>
+                        <button style="text-align: center; background-color: lightblue; border-radius: 5px;">Submit
+                            Query</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div id="fourth" style="text-align: center; padding: 40px;">
+            <h3>Key Features</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vero saepe natus amet quibusdam officiis
+            asperiores consectetur vel, esse obcaecati praesentium explicabo aliquam dolor unde incidunt similique
+            minima nihil est?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, tempora. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Aspernatur, delectus.
+        </div>
+
+        <div id="fifth">
+            <div id="f1">
+                <div id="icons1">
+                    <i class="fa-solid fa-graduation-cap"
+                        style="background-color: white;padding: 10px ;border-radius: 50%;font-size: 60px;"></i>
+                </div>
+                <h3>Expert Faculty</h3><br><br><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam similique non quisquam animi earum
+                corrupti temporibus facilis atque enim aperiam architecto a, ut excepturi impedit quos suscipit. Quae
+                nihil, dolores praesentium recusandae excepturi sint iure consequatur sed qui aliquid sapiente alias
+                quidem nesciunt veritatis in voluptatibus ab reiciendis. Quasi, praesentium.
+
+            </div>
+            <div id="f1">
+                <div id="icons1">
+                    <i class="fa-solid fa-flask"
+                        style="background-color: white;padding: 10px ;border-radius: 50%;font-size: 60px;"></i>
+                </div>
+                <h3>Expert Faculty</h3><br><br><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam similique non quisquam animi earum
+                corrupti temporibus facilis atque enim aperiam architecto a, ut excepturi impedit quos suscipit. Quae
+                nihil, dolores praesentium recusandae excepturi sint iure consequatur sed qui aliquid sapiente alias
+                quidem nesciunt veritatis in voluptatibus ab reiciendis. Quasi, praesentium.
+
+            </div>
+            <div id="f1">
+                <div id="icons1">
+                    <i class="fa-solid fa-book-open-reader"
+                        style="background-color: white;padding: 10px ;border-radius: 50%;font-size: 60px;"></i>
+                </div>
+                <h3>Expert Faculty</h3><br><br><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam similique non quisquam animi earum
+                corrupti temporibus facilis atque enim aperiam architecto a, ut excepturi impedit quos suscipit. Quae
+                nihil, dolores praesentium recusandae excepturi sint iure consequatur sed qui aliquid sapiente alias
+                quidem nesciunt veritatis in voluptatibus ab reiciendis. Quasi, praesentium.
+
+            </div>
+            <div id="f1">
+                <div id="icons1">
+                    <i class="fa-solid fa-phone"
+                        style="background-color: white;padding: 10px ;border-radius: 50%;font-size: 60px;"></i>
+                </div>
+                <h3>Expert Faculty</h3><br><br><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam similique non quisquam animi earum
+                corrupti temporibus facilis atque enim aperiam architecto a, ut excepturi impedit quos suscipit. Quae
+                nihil, dolores praesentium recusandae excepturi sint iure consequatur sed qui aliquid sapiente alias
+                quidem nesciunt veritatis in voluptatibus ab reiciendis. Quasi, praesentium.
+
+            </div>
+
+
+
+        </div>
+        <div id="sixth" style="text-align: center; padding: 40px;">
+            <h2>
+                Our Courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, rem hic. Vel dolore quasi veritatis ipsa
+                saepe soluta voluptate. Qui, nisi. Dolores nobis ducimus explicabo, dolor, enim reiciendis ipsa quisquam
+                minus cumque quis quia ex, sequi voluptatibus minima perspiciatis officia natus fugit fuga quaerat eaque
+                nulla praesentium. Quidem, voluptatum eligendi?</p>
+            </h2>
+        </div>
+        <div id="seveth">
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">Full Stack Development</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">Front End Development</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">Back End Development</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">Data Science</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">AWS</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+            <div id="sp">
+                <h4 style="color: white;background-color: teal;">Digital Marketing</h4>
+                <b>Lorem ipsum dolor sit amet.</b><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem adipisci eveniet
+                    veritatis officiis deserunt optio ipsam, quod non aspernatur voluptatibus officia quam deleniti
+                    numquam.</p>
+                <br>
+                <button type="button" id="btn">Apply Online</button>
+
+            </div>
+        </div>
+        <div id="eight">
+            <div id="rj" style="width: 300px;">
+                <h2><i class="fa-solid fa-graduation-cap"></i> RJ Technologies</h2>
+                <p>tenetur illum cupiditate iusto nam quidem, molestiae quod cum autem ex laudantium quaerat id nobis
+                    soluta! Fugit distinctio id porro voluptatibus cumque repellendus deleniti fugiat ad suscipit, unde,
+                    officia, eos eligendi aliquid quidem repellat consequatur obcaecati praesentium!</p>
+
+            </div>
+            <div id="services">
+                <h2>Our Services</h2>
+                Lorem ipsum dolor sit. <br>
+                Lorem, ipsum dolor. <br>
+                Lorem ipsum dolor sit. <br>
+                Lorem ipsum dolor sit. <br>
+            </div>
+            <div id="Head Office">
+                <h2>Head Office</h2>
+                Lorem, ipsum dolor. <br>
+                Lorem, ipsum. <br>
+                Lorem ipsum dolor sit amet. <br>
+                Lorem ipsum dolor sit. <br><br>
+                Lorem ipsum dolor sit.
+            </div>
+            <div id="subs">
+                <h2>Subscribe Us</h2>
+                <input type="text" placeholder="enter your Email"><br><br>
+                <div id="ic" style="font-size: 30px;gap: 20px;">
+                    <i class="fa-brands fa-facebook"
+                        style="background-color: teal; padding:6px; color: white;border-radius: 5px;"></i>
+                    <i class="fa-brands fa-square-twitter"
+                        style="background-color: teal; padding: 6px; color: white;border-radius: 5px;"></i>
+                    <i class="fa-brands fa-square-instagram"
+                        style="background-color: teal; padding: 6px; color: white;border-radius: 5px;"></i>
+                    <i class="fa-brands fa-linkedin"
+                        style="background-color: teal; padding: 6px; color: white;border-radius: 5px;"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
